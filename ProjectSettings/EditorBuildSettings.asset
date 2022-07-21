@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TujuanPembelajaran.unity
     guid: 8889be2dfb96b1847b513051229e4eff
+  - enabled: 1
+    path: Assets/Scenes/Materi/game-indo.unity
+    guid: 7c8dcfdd75d5a9042828f02aecea3dc9
+  - enabled: 1
+    path: Assets/Scenes/Materi/game-indo2.unity
+    guid: 3232db94161397a4095f7dd6af813358
+  - enabled: 1
+    path: Assets/Scenes/Materi/game-ipa2.unity
+    guid: 60cffb4c62e4e3242b868d3c139a9223
+  - enabled: 1
+    path: Assets/Scenes/Materi/game-ipa.unity
+    guid: f05e12cfb7701e542b0b34283252cb8d
   m_configObjects: {}
