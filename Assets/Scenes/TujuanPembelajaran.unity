@@ -123,6 +123,82 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &43011929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 43011930}
+  - component: {fileID: 43011932}
+  - component: {fileID: 43011931}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &43011930
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43011929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9996012, y: 0.9996012, z: 0.9996012}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 715301622}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.000034332275, y: 0}
+  m_SizeDelta: {x: 2145.38, y: 1230.04}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &43011931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43011929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 1dd0b8c3fe157b24db0386a46d506641, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &43011932
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43011929}
+  m_CullTransparentMesh: 1
 --- !u!1 &77248833
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,7 +234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.000030517578}
   m_SizeDelta: {x: 1713.84, y: 737.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &77248835
@@ -181,16 +257,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "KI 1\t: Menerima, menjalankan dan menghargai ajaran agama yang dianutnya.
-    \r\n\nKI 2\t: Memiliki perilaku jujur, disiplin, tanggung jawab, santun, peduli,
-    dan percaya diri dalam berinteraksi dengan keluarga, teman, guru, dan tetangganya.\r\n\nKI
-    3\t: Memahami pengetahuan faktual dengan cara mengamati (mendengar, melihat,
-    membaca dan menanya) dan menanya berdasarkan rasa ingin tahu tentang dirinya,
-    makhluk ciptaan Tuhan dan kegiatannya, dan benda-benda yang dijumpainya di rumah,
-    sekolah, dan tempat bermain.\r\n\nKI 4\t: Menyajikan pengetahuan faktual dalam
-    bahasa yang jelas, sistematis, dan logis, dalam karya yang estetis, dalam gerakan
-    yang mencerminkan anak sehat, dan dalam tindakan yang mencerminkan peri-laku
-    anak beriman dan berakhlak mulia.\r\n\r\n"
+  m_text: "1. Setelah menyimak video aktifitas wawancara, siswa dapat mengumpulkan
+    informasi melalui \n    kegiatan wawancara dengan tepat.\r\n2. Setelah menyimak
+    video aktifitas wawancara, siswa mampu menyusun laporan menggunakan \n    kosa
+    kata baku dan kalimat efektif yang sistematis.\r\n3. Setelah mengamati video,
+    siswa dapat menyimpulkan manfaat dari peduli dan melestarikan \n    sumber daya
+    alam dan lingkungan dengan tepat.\r\n4. Setelah mengamati video, siswa mampu
+    melakukan refleksi kebiasaan peduli dan melestarikan \n    sumber daya alam dan
+    lingkungan.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -253,7 +327,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 16.757446, y: 26.812042, z: 0, w: 0}
+  m_margin: {x: 56.632996, y: 26.812042, z: 44.159912, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -266,82 +340,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77248833}
-  m_CullTransparentMesh: 1
---- !u!1 &257049391
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 257049392}
-  - component: {fileID: 257049394}
-  - component: {fileID: 257049393}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &257049392
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257049391}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 715301622}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.38, y: 7.37}
-  m_SizeDelta: {x: 2069.71, y: 1192.71}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &257049393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257049391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1dd0b8c3fe157b24db0386a46d506641, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &257049394
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257049391}
   m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
@@ -510,8 +508,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 833935484}
   m_HandleRect: {fileID: 833935483}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 0.9977526
+  m_Value: 0.49999872
+  m_Size: 0.96798044
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -646,7 +644,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 257049392}
+  - {fileID: 43011930}
   - {fileID: 1061819648}
   - {fileID: 1055601882}
   - {fileID: 1645964474}
@@ -1038,8 +1036,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0000076293945, y: -120.73001}
-  m_SizeDelta: {x: 661.46, y: 148.54}
+  m_AnchoredPosition: {x: 0.0000076293945, y: -88.29}
+  m_SizeDelta: {x: 575.32, y: 129.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1061819649
 MonoBehaviour:
@@ -1061,7 +1059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a5340e19e3210324fae5bb65566394a9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24309a413e93c7446b385f919a3c05dd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1287,8 +1285,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.52, y: -92.67}
-  m_SizeDelta: {x: 1869.06, y: 827.98}
+  m_AnchoredPosition: {x: 47.27, y: -81.15}
+  m_SizeDelta: {x: 1767.49, y: 782.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1645964475
 MonoBehaviour:
@@ -1366,8 +1364,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.72, y: 2.26}
-  m_SizeDelta: {x: 1739.43, y: 753.29}
+  m_AnchoredPosition: {x: -1.68, y: -2.98}
+  m_SizeDelta: {x: 1653.46, y: 713.45}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1816695877
 MonoBehaviour:
