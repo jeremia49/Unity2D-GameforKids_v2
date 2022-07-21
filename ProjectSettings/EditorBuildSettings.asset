@@ -22,5 +22,8 @@ EditorBuildSettings:
     guid: 6028a2a7355ec194da2099d24edf40b4
   - enabled: 1
     path: Assets/Scenes/KompetensiInti.unity
-    guid: 5d6426f1e1ef1a54a93acd8a8dd6ce72
+    guid: 8f445c10f6df8b948b78105313a48587
+  - enabled: 1
+    path: Assets/Scenes/TujuanPembelajaran.unity
+    guid: 8889be2dfb96b1847b513051229e4eff
   m_configObjects: {}
