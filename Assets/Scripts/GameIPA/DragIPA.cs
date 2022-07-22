@@ -1,18 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class DragIPA : MonoBehaviour
+public class DragIPA : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Canvas canvas;
+    private RectTransform rectTransform;
+    private CanvasGroup canvasGroup;
+    public Vector3 dragsrc;
+
+    private void Awake()
     {
-        
+        rectTransform = gameObject.GetComponent<RectTransform>();
+        canvasGroup = gameObject.GetComponent<CanvasGroup>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnBeginDrag(PointerEventData eventData)
     {
-        
+        canvasGroup.blocksRaycasts = false;
+        canvasGroup.alpha = .6f;
+        dragsrc = eventData.pointerCurrentRaycast.worldPosition;
     }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        canvasGroup.alpha = 1f;
+        canvasGroup.blocksRaycasts = true;
+    }
+
 }
