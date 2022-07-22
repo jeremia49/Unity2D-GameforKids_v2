@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Profil.unity
     guid: 87d439de67cfce142bac605857b0f0f7
+  - enabled: 1
+    path: Assets/Scenes/kmi.unity
+    guid: 3269cefb4ca222245ad42f2f416f898e
   m_configObjects: {}
