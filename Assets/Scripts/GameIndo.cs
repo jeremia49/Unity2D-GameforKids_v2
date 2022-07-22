@@ -50,6 +50,7 @@ public class GameIndo : MonoBehaviour
 
     public void Reset()
     {
+        SceneMgr.playSound();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

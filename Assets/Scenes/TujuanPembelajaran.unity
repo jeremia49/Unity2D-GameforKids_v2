@@ -258,12 +258,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "1. Setelah menyimak video aktifitas wawancara, siswa dapat mengumpulkan
-    informasi melalui \n    kegiatan wawancara dengan tepat.\r\n\n2. Setelah menyimak
-    video aktifitas wawancara, siswa mampu menyusun laporan menggunakan \n    kosa
+    informasi \n    melalui kegiatan wawancara dengan tepat.\r\n\n2. Setelah menyimak
+    video aktifitas wawancara, siswa mampu menyusun laporan \n    menggunakan kosa
     kata baku dan kalimat efektif yang sistematis.\r\n\n3. Setelah mengamati video,
-    siswa dapat menyimpulkan manfaat dari peduli dan melestarikan \n    sumber daya
+    siswa dapat menyimpulkan manfaat dari peduli dan \n    melestarikan sumber daya
     alam dan lingkungan dengan tepat.\r\n\n4. Setelah mengamati video, siswa mampu
-    melakukan refleksi kebiasaan peduli dan melestarikan \n    sumber daya alam dan
+    melakukan refleksi kebiasaan peduli dan \n    melestarikan sumber daya alam dan
     lingkungan.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -509,7 +509,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 833935483}
   m_Direction: 2
   m_Value: 0.49999872
-  m_Size: 0.96798044
+  m_Size: 0.96798056
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1152,7 +1152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -51.16005, y: -48.900013}
+  m_AnchoredPosition: {x: -51.160034, y: -48.900024}
   m_SizeDelta: {x: 89, y: 85.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309129147

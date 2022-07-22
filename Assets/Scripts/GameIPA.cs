@@ -45,6 +45,7 @@ public class GameIPA : MonoBehaviour
 
     public void Reset()
     {
+        SceneMgr.playSound();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
