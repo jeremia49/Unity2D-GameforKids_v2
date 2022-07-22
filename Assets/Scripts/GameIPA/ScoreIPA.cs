@@ -13,6 +13,7 @@ public class ScoreIPA : MonoBehaviour
 
     public void openPopUp()
     {
+        SceneMgr.playSound();
         calculateScore();
         panel.SetActive(true);
     }

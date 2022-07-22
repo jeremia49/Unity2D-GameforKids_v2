@@ -7,6 +7,7 @@ public class SceneMgr : MonoBehaviour
 {
     public void to(string To)
     {
+        playSound();
         if (To == "Quit")
         {
             Application.Quit();
@@ -19,6 +20,12 @@ public class SceneMgr : MonoBehaviour
 
     public void toHome()
     {
+        playSound();
         SceneManager.LoadSceneAsync("MainMenu");
+    }
+
+    static public void playSound()
+    {
+        GameObject.FindObjectOfType<AudioSource>().Play();
     }
 }

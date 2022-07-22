@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Materi/game-ipa.unity
     guid: f05e12cfb7701e542b0b34283252cb8d
+  - enabled: 1
+    path: Assets/Scenes/Profil.unity
+    guid: 87d439de67cfce142bac605857b0f0f7
   m_configObjects: {}

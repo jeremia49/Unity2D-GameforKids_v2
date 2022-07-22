@@ -13,6 +13,7 @@ public class Score : MonoBehaviour
 
     public void openPopUp()
     {
+        SceneMgr.playSound();
         calculateScore();
         panel.SetActive(true);
 

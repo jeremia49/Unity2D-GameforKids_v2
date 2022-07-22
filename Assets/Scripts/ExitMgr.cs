@@ -2,33 +2,38 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HelpMgr : MonoBehaviour
+public class ExitMgr : MonoBehaviour
 {
-    public GameObject helpPopup;
+    // Start is called before the first frame update
     public bool isActive = false;
+    public GameObject panel;
 
-    // Update is called once per frame
+
     void Update()
     {
         if (isActive)
         {
-            helpPopup.SetActive(true);
+            panel.SetActive(true);
         }
         else
         {
-            helpPopup.SetActive(false);
+            panel.SetActive(false);
         }
     }
 
-    public void showPopup()
+    public void showPopUp()
     {
         SceneMgr.playSound();
         isActive = true;
     }
-    public void hidePopup()
+    public void hidePopUp()
     {
         SceneMgr.playSound();
         isActive = false;
     }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
