@@ -26,6 +26,6 @@ public class SceneMgr : MonoBehaviour
 
     static public void playSound()
     {
-        GameObject.FindObjectOfType<AudioSource>().Play();
+        AudioManager.playClick();
     }
 }
