@@ -25,11 +25,6 @@ public class AudioManager : MonoBehaviour
     {
         switch (scene.name)
         {
-            case "game-indo":
-            case "game-ipa":
-                backgroundMusic.Pause();
-                gameMusic.Play();
-                break;
             case "materi-indo":
             case "materi-ipa":
                 backgroundMusic.Pause();
