@@ -1026,7 +1026,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.0000076293945, y: -10.8}
-  m_SizeDelta: {x: 905.18, y: 313.26}
+  m_SizeDelta: {x: 905.18, y: 324.28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253274506
 MonoBehaviour:
@@ -5048,7 +5048,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.89, y: -2.14}
+  m_AnchoredPosition: {x: 13.89, y: 1.04}
   m_SizeDelta: {x: 772.89, y: 258.91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1705179105
@@ -5073,7 +5073,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "1. Pada bagian ini terdapat format laporan hasil \n    wawancara yang
     disusun secara acak.\n2. Urutkan format laporan hasil wawancara \n    dengan
-    menekan kolomnya masing-masing.\n3. Jika ingin melihat score, tekan tombol score"
+    memasukkan ke dala kolom kosong \n    yang sudah disediakan.\n3. Jika ingin melihat
+    score, tekan tombol score"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
