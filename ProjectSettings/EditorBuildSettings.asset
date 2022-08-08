@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Materi/materi-ipa.unity
     guid: b0702299571a6834583445e2c70c419c
+  - enabled: 1
+    path: Assets/Scenes/Materi/evaluasi-materi-indo 1.unity
+    guid: 1e0f38dd1f8215244a7095000c2b382c
+  - enabled: 1
+    path: Assets/Scenes/Materi/evaluasi-materi-ipa.unity
+    guid: 2d378b3daed84ca4ea74bbea54206062
   m_configObjects: {}
