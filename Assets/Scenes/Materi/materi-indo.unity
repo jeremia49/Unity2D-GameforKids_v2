@@ -1551,8 +1551,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 63.799988}
-  m_SizeDelta: {x: 333.68, y: 63.369995}
+  m_AnchoredPosition: {x: 0.0000038146973, y: 69.9653}
+  m_SizeDelta: {x: 291.8529, y: 106.6055}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &613468642
 MonoBehaviour:
@@ -2734,8 +2734,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000076293945, y: 0.00000059604645}
-  m_SizeDelta: {x: 306.82, y: 53.33}
+  m_AnchoredPosition: {x: 0.0000014305115, y: -0.00000071525574}
+  m_SizeDelta: {x: 331.5117, y: 76.2308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1339281111
 MonoBehaviour:
@@ -2757,7 +2757,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sumber: Wynston Family\r"
+  m_text: "Sumber: \nChannel Youtube\r\nWynston Family\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
